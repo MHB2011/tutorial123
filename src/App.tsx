@@ -10,12 +10,6 @@ function App() {
     { title: "Contact", subItems: ["Phone", "Mail"] },
   ];
 
-  console.log("test");
-  console.log("test");
-  console.log("test");
-
-  console.log("test123");
-
   return (
     <MenuContextProvider menuConfig={menuConfig}>
       <Menu menuConfig={menuConfig} />
