@@ -12,6 +12,8 @@ function App() {
 
   console.log("test");
 
+  console.log("test123");
+
   return (
     <MenuContextProvider menuConfig={menuConfig}>
       <Menu menuConfig={menuConfig} />
